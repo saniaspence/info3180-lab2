@@ -1,3 +1,58 @@
 body {
     padding-top: 5rem;
 }
+
+#pro-frame {
+    margin: auto;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 40rem;
+}
+
+#top_bio {
+    background-image: linear-gradient(#4fb231, #b6ef75, skyblue);
+    border-radius: .3rem .3rem 0 0;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+#DP {
+    max-height: 15rem;
+    width: 15rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#profile-info {
+    margin-top: 1.1rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    color: gold;
+}
+
+#bio-aft {
+    padding: 0.5rem 2rem;
+    padding-bottom: 1.5rem;
+    color: grey;
+}
+
+#username {
+    font-weight: bold;
+}
+
+.backing {
+    padding: 0;
+    background-color: white;
+}
+
+.stats-live{
+    font-weight: bold;
+    color: black;
+}
+
+#followb{
+    background-color: turquoise;
+    color: green;
+    font-weight: bold;
+    padding: .35rem 2.0rem;
+    border-radius: .45rem;
+}

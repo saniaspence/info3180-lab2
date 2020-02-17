@@ -19,6 +19,11 @@ def home():
     return render_template('home.html')
 
 
+def profile():
+    """Render website's home page."""
+    return render_template('profile.html')
+
+
 @app.route('/about/')
 def about():
     """Render the website's about page."""
