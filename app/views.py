@@ -18,9 +18,9 @@ def home():
     """Render website's home page."""
     return render_template('home.html')
 
-
+@app.route('/profile/')
 def profile():
-    """Render website's home page."""
+    """Render website's profile page."""
     return render_template('profile.html')
 
 

@@ -1,40 +1,42 @@
 {% extends "base.html" %}
 
 {% block main %}
-<div id="profile-body" class="backing">
-    <div id="bio-top">
-        <img id="DP" class="img-fluid mx-auto d-block rounded-circle" src="{{ url_for('static',filename='Me again.png') }}" alt="My Profile Pic">
-        <div id="profile-info">
-            <h3 id="username">Sania Spence</h3>
-            <h5>@JTyrell</h5>
-            <h5>Kingston, Jamaica (But I'm actually from Mars)</h5>
-            <h5>Joined {{ dateJoined }}</h5>
-        </div>
-    </div>
-    <div id="bio-aft">
-        <p id="bio-text" class="text-justify">Hi my name is Sania and Anime and Cartoons are AWESOME</p>
-        <div id="stats" class="container-fluid">
+    <div id="profile-body" class="backing">
+            <div id="bio-top">
+                <img id="DP" class="img-fluid mx-auto d-block rounded-circle" src="{{ url_for('static',filename='Me Sania.jpg') }}" alt="My Profile Pic">
+                <div id="profile-info">
+                    <h3 id="username">Sania Spence</h3>
+                    <h5>@saniaspence</h5>
+                    <h5>Kingston, Jamaica</h5>
+                    <h5>Joined {{ dateJoined }}</h5>
+                </div>
+            </div>
 
-            <div class="row">                
-                <div class="col-sm text-center">
-                    <h5 class="stats-live">10</h5>
-                    <p>Posts</p>
-                </div>
+        <div id="bio-aft">
+                <p id="bio-text" class="text-center">Hi my name is Sania and Anime and Cartoons are AWESOME!</p>
+                <div id="stats" class="container-fluid">
 
-                <div class="col-sm text-center">
-                    <h5 class="stats-live">3</h5>
-                    <p>Following</p>
+                    <div class="row">                
+                        <div class="col-sm text-center">
+                            <h5 class="stats-live">10</h5>
+                            <p>Posts</p>
+                        </div>
+
+                        <div class="col-sm text-center">
+                            <h5 class="stats-live">3</h5>
+                            <p>Following</p>
+                        </div>
+                        <div class="col-sm text-center">
+                            <h5 class="stats-live">13.2 M</h5>
+                            <p>Followers</p>
+                        </div>
+                    </div> 
                 </div>
-                <div class="col-sm text-center">
-                    <h5 class="stats-live">13.2 M</h5>
-                    <p>Followers</p>
+                <div>
+                    <button class="btn mx-auto d-block" id="followb">Follow</button>
                 </div>
-            </div> 
-        </div>
-        <div>
-            <button class="btn mx-auto d-block" id="followb">Follow</button>
-        </div>
+            </div>
+
     </div>
-</div>
 
 {% endblock %}
